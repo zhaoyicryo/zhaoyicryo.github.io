@@ -38,9 +38,10 @@
 @use "font-awesome/solid";
 @use "font-awesome/regular";
 
-.bibliography h2 {
-  color: #6fa8dc;          /* 淡蓝色年份文字 */
-  border-bottom: 2px solid #d9d9d9;  /* 灰色分隔线 */
+/* ===== Publications Year Style ===== */
+.year {
+  color: #6fa8dc !important;
+  border-bottom: 2px solid #d9d9d9;
   padding-bottom: 6px;
   margin-top: 40px;
   font-size: 26px;
