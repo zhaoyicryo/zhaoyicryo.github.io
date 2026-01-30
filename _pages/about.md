@@ -9,11 +9,11 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-  <p><strong>Email 1: <style="color:#007bff;">yi.zhao@pku.edu.cn</strong></p>
-  <p><strong>Email 2: <style="color:#007bff;">zhaoyiscryo@outlook.com</strong></p>
-
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+    <p>
+      <strong>Email:</strong> 
+      <span style="color:#007bff;">yi.zhao@pku.edu.cn</span><br>
+      <span style="color:#007bff; margin-left: 60px;">zhaoyicryo@outlook.com</span>
+    </p>
 
 announcements:
   enabled: true # includes a list of news items
