@@ -6,14 +6,13 @@ subtitle: Doctor of Philosophy in Geoscience
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: Glacier.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>
-      <strong>Email:</strong> 
-      <span style="color:#007bff;">yi.zhao@pku.edu.cn</span><br>
-      <span style="color:#007bff; margin-left: 60px;">zhaoyicryo@outlook.com</span>
-    </p>
+
+announcements: 
+enabled: true # includes a list of news items 
+scrollable: true # adds a vertical scroll bar if there are more than 3 news items 
+limit: 5 # leave blank to include all the news in the _news folder
 
 latest_posts:
   enabled: true
