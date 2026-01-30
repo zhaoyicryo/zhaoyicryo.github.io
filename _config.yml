@@ -7,7 +7,7 @@ first_name: Yi
 middle_name: 
 last_name: Zhao
 contact_note: >
-
+  zhaoyicryo@outlook.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   I am a postdoc at Peking University. I study permafrost degradation and the impacts on freshwater, infrastructure, and carbon feedback.
 footer_text: >
@@ -297,6 +297,7 @@ scholar:
 
   replace_strings: true
   join_strings: true
+  max_author_limit: 999
 
   details_dir: bibliography
   details_link: Details
@@ -304,6 +305,7 @@ scholar:
   query: "@*"
   group_by: year
   group_order: descending
+  
 
 # Display different badges withs stats for your publications
 # Customize badge behavior in _layouts/bib.liquid
