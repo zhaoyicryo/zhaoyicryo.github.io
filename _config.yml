@@ -304,7 +304,6 @@ scholar:
   query: "@*"
   group_by: year
   group_order: descending
-  max_author_limit: 999   # 关键这一行
 
 # Display different badges withs stats for your publications
 # Customize badge behavior in _layouts/bib.liquid
