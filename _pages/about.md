@@ -9,9 +9,9 @@ profile:
   image: Glacier.jpg
   image_circular: false # crops the image to make it circular
 
-announcements: 
-  enabled: true # includes a list of news items 
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items 
+announcements:
+  enabled: true # includes a list of news items
+  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the _news folder
 
 latest_posts:
@@ -31,4 +31,3 @@ This is Yi Zhao, a postdoc in [CryoLab](http://scholar.pku.edu.cn/dongfengli) at
 **Email:**  
 <span style="color:#007bff;">yi.zhao@pku.edu.cn</span>  
 <span style="color:#007bff;">zhaoyicryo@outlook.com</span>
-

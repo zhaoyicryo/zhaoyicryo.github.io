@@ -4,7 +4,7 @@
 
 title: Yi Zhao # the website title (if blank, full name will be used instead)
 first_name: Yi
-middle_name: 
+middle_name:
 last_name: Zhao
 contact_note: >
   zhaoyicryo@outlook.com
@@ -306,7 +306,6 @@ scholar:
   query: "@*"
   group_by: year
   group_order: descending
-  
 
 # Display different badges withs stats for your publications
 # Customize badge behavior in _layouts/bib.liquid
