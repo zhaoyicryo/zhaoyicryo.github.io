@@ -3,24 +3,20 @@ name: Deploy site
 on:
   push:
     branches:
-      - master
       - main
-    paths:
+      - master
+      - "**/*.md"
+      - "**/*.html"
+      - "**/*.yml"
       - "assets/**"
       - "_sass/**"
       - "_scripts/**"
-      - "**.bib"
-      - "**.html"
-      - "**.js"
-      - "**.liquid"
-      - "**/*.md"
-      - "**.yml"
       - "Gemfile"
       - "Gemfile.lock"
   pull_request:
     branches:
-      - master
       - main
+      - master
   workflow_dispatch:
 
 permissions:
@@ -29,43 +25,50 @@ permissions:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout code
+      # 1. Checkout repo
+      - name: Checkout 🛎️
         uses: actions/checkout@v4
 
-      - name: Setup Ruby
+      # 2. Set up Ruby for Jekyll
+      - name: Setup Ruby 💎
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: "3.3.5"
           bundler-cache: true
 
-      - name: Setup Python
+      # 3. Set up Python (for nbconvert or other scripts if needed)
+      - name: Setup Python 🐍
         uses: actions/setup-python@v5
         with:
           python-version: "3.13"
           cache: "pip"
 
-      - name: Install dependencies
+      # 4. Install dependencies
+      - name: Install Dependencies 🔧
         run: |
-          sudo apt-get update
-          sudo apt-get install -y imagemagick
+          sudo apt-get update && sudo apt-get install -y imagemagick
           pip3 install --upgrade nbconvert
           bundle install
 
-      - name: Build Jekyll site
+      # 5. Build Jekyll site
+      - name: Build Jekyll Site 🏗️
         run: |
           export JEKYLL_ENV=production
           bundle exec jekyll build
 
-      - name: Purge unused CSS
+      # 6. Purge unused CSS (optional)
+      - name: Purge unused CSS 🧹
         run: |
           npm install -g purgecss
-          purgecss -c purgecss.config.js
+          purgecss -c purgecss.config.js || echo "No purgecss config, skipping"
 
-      - name: Deploy to GitHub Pages
+      # 7. Deploy to GitHub Pages
+      - name: Deploy 🚀
         if: github.event_name != 'pull_request'
-        uses: peaceiris/actions-gh-pages@v6
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./_site
-
+          folder: _site
+          clean: true
+          commit-message: "Deploy updated site [skip ci]"
