@@ -179,7 +179,10 @@ pagination:
 </div>
 
   <div class="col-sm-3">
-    <img class="card-img" src="{{ post.thumbnail | relative_url }}" style="object-fit: cover; height: 90%" alt="image">
+    <div style="width:100%; aspect-ratio: 1 / 1; overflow:hidden; border-radius:8px;">
+    <img src="{{ post.thumbnail | relative_url }}"
+         style="width:100%; height:100%; object-fit:cover;"
+         alt="image">
   </div>
 </div>
 {% endif %}
