@@ -16,7 +16,7 @@ footer_text: >
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 keywords: Permafrost, Hydrology, Cryosphere, River, Thermokarst
 lang: en
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: ZY_logo.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://zhaoyicryo.github.io # the base hostname & protocol for your site
 baseurl: ""
