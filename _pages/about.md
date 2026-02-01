@@ -20,7 +20,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-This is Yi Zhao, a postdoc in [CryoLab](http://scholar.pku.edu.cn/dongfengli) at Peking University. I study permafrost degradation under climate change and its impacts on freshwater system, infrastructure, and carbon feedback.
+I am a postdoc in [CryoLab](http://scholar.pku.edu.cn/dongfengli) at Peking University. I study permafrost degradation under climate change and its impacts on freshwater system, infrastructure, and carbon feedback.
 
 [Google Scholar](https://scholar.google.com/citations?hl=en&view_op=list_works&gmla=AJsN-F67Ugan28vObPuHbKltdBkguBoxfQchannLKdQh45W1cZjL-enSPitqH20-BBaGbE1d0hFyCyO7cDvd6sOjSdOZWjiMILWAu2uNUegvvLSVEbSG8_0&user=0rilGpsAAAAJ)
 
