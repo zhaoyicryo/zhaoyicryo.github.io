@@ -1,18 +1,10 @@
 cv:
   name: Yi Zhao
-  label: Dr.
+  label: Dr
   email: yizhao_cryo@outlook.com
   location: Beijing, China
   image: ""
   summary: I am a postdoc in [CryoLab](http://scholar.pku.edu.cn/dongfengli) at Peking University. I study permafrost degradation under climate change and its impacts on freshwater system, infrastructure, and carbon feedback.
-
-  social_networks:
-    - network: X
-      username: AlbertEinstein
-    - network: GitHub
-      username: example
-    - network: LinkedIn
-      username: example
 
   address:
     street: Peking University
