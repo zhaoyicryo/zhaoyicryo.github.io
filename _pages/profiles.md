@@ -1,8 +1,8 @@
 ---
 layout: profiles
 permalink: /people/
-title: people
-description: members of my group
+title: People
+description: Members of my group. I welcome collaboration and exchange with colleagues in the fields of the **cryosphere**, **permafrost**, and **land surface modeling**.
 nav: true
 nav_order: 7
 
@@ -26,5 +26,3 @@ profiles:
   #    <p>123 your address street</p>
   #    <p>Your City, State 12345</p>
 ---
-
-I welcome collaboration and exchange with colleagues in the fields of the **cryosphere**, **permafrost**, and **land surface modeling**.
