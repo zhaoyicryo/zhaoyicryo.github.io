@@ -23,13 +23,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-projects",
-          title: "projects",
-          description: "A growing collection of your cool projects.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/projects/";
-          },
         },{id: "nav-data",
           title: "Data",
           description: "All data and code related to my publications can be accessed through the “Data and Code Availability” statements within the respective papers, or obtained by contacting me directly.",
@@ -58,21 +51,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/people/";
           },
-        },{id: "dropdown-bookshelf",
-              title: "bookshelf",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/books/";
-              },
-            },{id: "dropdown-blog",
-              title: "blog",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/blog/";
-              },
-            },{id: "post-new-paper-on-permafrost-modeling-out-in-water-resources-research",
+        },{id: "post-new-paper-on-permafrost-modeling-out-in-water-resources-research",
         
           title: "New paper on permafrost modeling out in Water Resources Research",
         
