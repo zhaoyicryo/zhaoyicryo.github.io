@@ -53,7 +53,7 @@ ninja.data = [{
           },
         },{id: "post-wrr-a-hybrid-modeling-approach-for-improved-simulation-of-thermal-hydrological-dynamics-in-active-layer-on-the-qinghai-tibet-plateau",
         
-          title: "**WRR** | A Hybrid Modeling Approach for Improved Simulation of Thermal-Hydrological Dynamics in...",
+          title: "WRR | A Hybrid Modeling Approach for Improved Simulation of Thermal-Hydrological Dynamics in...",
         
         description: "New paper on permafrost modeling out in Water Resources Research",
         section: "Posts",
