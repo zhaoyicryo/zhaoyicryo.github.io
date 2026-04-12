@@ -4,7 +4,7 @@ cv:
   email: yizhao_cryo@outlook.com
   location: Beijing, China
   image: ""
-  summary: I am a postdoc in [CryoLab](http://scholar.pku.edu.cn/dongfengli) at Peking University. I study permafrost degradation under climate change and its impacts on freshwater system, infrastructure, and carbon feedback.
+  summary: I am a postdoc in [Cryosphere and River Lab](http://scholar.pku.edu.cn/dongfengli) at Peking University. I study permafrost degradation under climate change and its impacts on freshwater system, infrastructure, and carbon feedback.
 
   address:
     street: Peking University
@@ -39,6 +39,6 @@ cv:
     Experience:
       - company: College of Environmental Sciences and Engineering, Peking University
         position: Postdoctoral Fellowship
-        location: Peking University
+        location: Beijing, China
         start_date: 2023
         end_date: to now
