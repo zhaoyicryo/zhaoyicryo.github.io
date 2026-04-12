@@ -51,9 +51,9 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/people/";
           },
-        },{id: "post-new-paper-on-permafrost-modeling-out-in-water-resources-research",
+        },{id: "post-wrr-a-hybrid-modeling-approach-for-improved-simulation-of-thermal-hydrological-dynamics-in-active-layer-on-the-qinghai-tibet-plateau",
         
-          title: "New paper on permafrost modeling out in Water Resources Research",
+          title: "WRR|A Hybrid Modeling Approach for Improved Simulation of Thermal-Hydrological Dynamics in Active Layer...",
         
         description: "New paper on permafrost modeling out in Water Resources Research",
         section: "Posts",
