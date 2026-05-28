@@ -2,14 +2,14 @@
 layout: page
 permalink: /repositories/
 title: Data
-description: All data and code related to my publications can be accessed through the 鈥淒ata and Code Availability鈥?statements within the respective papers, or obtained by contacting me directly.
+description: All data and code related to my publications can be accessed through the Data and Code Availability statements within the respective papers, or by contacting me directly.
 nav: true
 nav_order: 4
 ---
 
-### Qinghai-Tibet Plateau Soil Temperature
+### Permafrost hydro-thermal dataset of Tibetan Plateau (PHD-TP)
 
-This map renders a GeoTIFF directly in the browser and supports pan/zoom.
+This dataset provides key hydrological and thermal variables of the active layer and near-surface permafrost across the Tibetan Plateau at 10 km spatial resolution and daily temporal resolution from 1979 to 2018. Annual mean products are available for direct download here, while the original daily-scale dataset can be obtained by contacting the corresponding author.
 
 - [Download GeoTIFF]({{ '/assets/data/qtp_soil_temperature.tif' | relative_url }})
 
