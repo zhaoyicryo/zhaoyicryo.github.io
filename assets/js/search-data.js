@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-data",
           title: "Data",
-          description: "All data and code related to my publications can be accessed through the “Data and Code Availability” statements within the respective papers, or obtained by contacting me directly.",
+          description: "All data and code related to my publications can be accessed through the 鈥淒ata and Code Availability鈥?statements within the respective papers, or obtained by contacting me directly.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/repositories/";
