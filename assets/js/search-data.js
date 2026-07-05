@@ -51,7 +51,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/people/";
           },
-        },{id: "post-wrr-a-hybrid-modeling-approach-for-improved-simulation-of-thermal-hydrological-dynamics-in-active-layer-on-the-qinghai-tibet-plateau",
+        },{id: "post-yi-zhao-attended-the-3rd-acop-2026-in-ulaanbaatar-mongolia",
+        
+          title: "Yi Zhao attended the 3rd ACOP 2026 in Ulaanbaatar, Mongolia",
+        
+        description: "Yi Zhao gave a talk at ACOP 2026 and enjoyed local food and the landscape of Ulaanbaatar.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/acop-2026/";
+          
+        },
+      },{id: "post-wrr-a-hybrid-modeling-approach-for-improved-simulation-of-thermal-hydrological-dynamics-in-active-layer-on-the-qinghai-tibet-plateau",
         
           title: "WRR | A Hybrid Modeling Approach for Improved Simulation of Thermal-Hydrological Dynamics in...",
         
