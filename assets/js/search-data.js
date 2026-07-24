@@ -51,7 +51,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/people/";
           },
-        },{id: "post-yi-zhao-attended-the-3rd-acop-2026-in-ulaanbaatar-mongolia",
+        },{id: "post-sa-westerly-induced-precipitation-increase-drives-near-surface-ground-ice-gain-on-the-tibetan-plateau-despite-warming",
+        
+          title: "SA | Westerly induced precipitation increase drives near-surface ground ice gain on the...",
+        
+        description: "New paper on ground ice out in Science Advances",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/2026SA/";
+          
+        },
+      },{id: "post-yi-zhao-attended-the-3rd-acop-2026-in-ulaanbaatar-mongolia",
         
           title: "Yi Zhao attended the 3rd ACOP 2026 in Ulaanbaatar, Mongolia",
         
