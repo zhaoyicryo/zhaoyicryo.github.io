@@ -393,10 +393,11 @@ This dataset provides key hydrological and thermal variables of the active layer
     layerSelect.addEventListener("change", loadCurrentRaster);
     yearSelect.addEventListener("change", loadCurrentRaster);
     loadCurrentRaster();
-  });
+
+});
 </script>
 
 #### References
 
-1. Zhao, Y., Nan, Z., Ji, H., Chen, Y., Ou, M., & Li, D. (2025). *A hybrid modeling approach for improved simulation of thermal-hydrological dynamics in active layer on the Qinghai-Tibet Plateau*. **Water Resources Research, 61**(12), e2025WR040288. [https://doi.org/10.1029/2025WR040288](https://doi.org/10.1029/2025WR040288)
-2. Zhao, Y., Nan, Z., Cao, Z., Ji, H., & Hu, J. (2023). *Evaluation of parameterization schemes for matric potential in frozen soil in land surface models: A modeling perspective*. **Water Resources Research, 59**(6), e2023WR034644. [https://doi.org/10.1029/2023WR034644](https://doi.org/10.1029/2023WR034644)
+1. Zhao, Y., Nan, Z., Ji, H., Chen, Y., Ou, M., & Li, D. (2025). _A hybrid modeling approach for improved simulation of thermal-hydrological dynamics in active layer on the Qinghai-Tibet Plateau_. **Water Resources Research, 61**(12), e2025WR040288. [https://doi.org/10.1029/2025WR040288](https://doi.org/10.1029/2025WR040288)
+2. Zhao, Y., Nan, Z., Cao, Z., Ji, H., & Hu, J. (2023). _Evaluation of parameterization schemes for matric potential in frozen soil in land surface models: A modeling perspective_. **Water Resources Research, 59**(6), e2023WR034644. [https://doi.org/10.1029/2023WR034644](https://doi.org/10.1029/2023WR034644)
