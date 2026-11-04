@@ -84,10 +84,11 @@ This dataset provides key hydrological and thermal variables of the active layer
     let legendControl = null;
     let loadingId = 0;
 
-    L.tileLayer("https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png", {
+    // Use the public, label-free hillshade service instead of CARTO's key-required tiles.
+    L.tileLayer("https://services.arcgisonline.com/ArcGIS/rest/services/Elevation/World_Hillshade/MapServer/tile/{z}/{y}/{x}", {
       maxZoom: 18,
       attribution:
-        '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; CARTO',
+        'Hillshade: <a href="https://services.arcgisonline.com/ArcGIS/rest/services/Elevation/World_Hillshade/MapServer">Esri and data contributors</a>',
     }).addTo(map);
 
     for (let y = 1979; y <= 2018; y++) {
