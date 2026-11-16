@@ -85,7 +85,7 @@
           {%- if forloop.last and author_array_limit == author_array_size %}and {% endif -%}
         {% endif %}
         {%- if author_is_self -%}
-          <strong>
+          <strong style="text-decoration: underline; text-underline-offset: 3px;">
             {{- author.first }}
             {{ author_last_html -}}
           </strong>
