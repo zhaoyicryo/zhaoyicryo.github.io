@@ -280,8 +280,8 @@ display_tags: ["paper", "meeting", "data", "conference"] # these tags will be di
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Zhao]
+  first_name: [Yi]
 
   style: apa
   locale: en
